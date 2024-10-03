@@ -6,13 +6,17 @@ export const ButtonContainer = styled.div`
     border: 1px solid #FAFAFA;
     border-radius: 20px;
 
-    height: 62px;
+    height: 40px;
     width: 80%;
 
     margin: 20px;
 
-    text-align: center;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #22272e;
 
     &: hover {
         background-color: #FAFAFA40;
