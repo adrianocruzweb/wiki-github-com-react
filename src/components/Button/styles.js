@@ -14,4 +14,9 @@ export const ButtonContainer = styled.div`
     text-align: center;
     color: black;
 
+    &: hover {
+        background-color: #FAFAFA40;
+        cursor: pointer;
+    }
+
 `

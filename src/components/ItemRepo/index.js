@@ -1,12 +1,12 @@
 import { ItemContainer } from "./styles";
 
 
-const ItemRepo = () => {
+const ItemRepo = ({repo}) => {
   return (
     <ItemContainer>
-      <h3>Nome repo</h3>
-      <p>Descrição repo</p>
-      <a href="foo">Ver repositório</a>
+      <h3>{repo.name}</h3>
+      <p>{repo.fullname}</p>
+      <a href={repo.html_url} target="_blank">Ver repositório</a>
       <br />
       <a href="foo" className="remover">Remover</a>
       <hr />
